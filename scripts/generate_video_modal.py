@@ -91,7 +91,8 @@ def generate_video(
 
     base_name = Path(resolved).stem
     save_frames(frames, base_name=base_name)
-    save_video(frames, OUTPUT_VIDEO_DIR / f"{base_name}.mp4", fps=fps)
+    save_video(frames, OUTPUT_VIDEO_DIR / "output.mp4", fps=fps)
+
 
     print(f"✅ 已生成 {len(frames)} 帧，视频输出路径为 /input/video/{base_name}.mp4")
 

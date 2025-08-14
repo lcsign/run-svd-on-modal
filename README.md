@@ -132,6 +132,50 @@ run-svd-on-modal/
 ├─ .gitignore
 └─ start.bat
 ```
+太棒了！你这个更新听起来非常工程化，尤其是“套娃式多层封装”——这说明你把逻辑模块化得很彻底，利于维护和扩展。下面是我为你生成的一段 `README.md` 更新内容，你可以直接复制粘贴进去，也可以让我帮你进一步润色或扩展：
+
+---
+
+```markdown
+## 🔄 更新说明（Update Log）
+
+### 2025-08-14
+- ✨ 新增 Gradio UI：支持图形界面上传文件、查看推理结果
+- 🧩 引入多层封装架构：
+  - 核心推理逻辑与参数解析分离
+  - UI 层与后端逻辑解耦，支持快速替换或扩展
+  - 支持本地与云端（Modal）部署的统一接口调用
+- 🛠️ 优化模块结构：
+  - 所有功能封装为独立模块，便于调试与复用
+  - 参数传递支持嵌套配置，提升灵活性
+
+## 🚀 使用方式（Usage）
+
+### 启动 Gradio UI
+```bash
+python app.py
+```
+
+### 本地命令行推理
+```bash
+python run.py --input ./data --output ./results
+```
+
+### 云端部署（Modal）
+```bash
+modal deploy --name svd_runner
+```
+
+## 📦 依赖环境（Requirements）
+- Python 3.10+
+- Gradio
+- Modal
+- ffmpeg
+```
+
+---
+
+
 
 ---
 

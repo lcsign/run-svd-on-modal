@@ -138,6 +138,8 @@ run-svd-on-modal/
 
 ```markdown
 ## 🔄 更新说明（Update Log）
+![：：：](D:\svd_runner\界面展示.png)
+
 
 ### 2025-08-14
 - ✨ 新增 Gradio UI：支持图形界面上传文件、查看推理结果

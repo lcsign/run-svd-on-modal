@@ -132,13 +132,13 @@ run-svd-on-modal/
 ├─ .gitignore
 └─ start.bat
 ```
-![：：：](D:\svd_runner\界面展示.png)
+
 
 ---
 
 ```markdown
 ## 🔄 更新说明（Update Log）
-![：：：](D:\svd_runner\界面展示.png)
+
 
 
 ### 2025-08-14
@@ -152,28 +152,8 @@ run-svd-on-modal/
   - 参数传递支持嵌套配置，提升灵活性
 
 ## 🚀 使用方式（Usage）
+运行ui.py 并在浏览器打开链接
 
-### 启动 Gradio UI
-```bash
-python app.py
-```
-
-### 本地命令行推理
-```bash
-python run.py --input ./data --output ./results
-```
-
-### 云端部署（Modal）
-```bash
-modal deploy --name svd_runner
-```
-
-## 📦 依赖环境（Requirements）
-- Python 3.10+
-- Gradio
-- Modal
-- ffmpeg
-```
 
 ---
 
